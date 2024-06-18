@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>pers.wjx.plugin.carol-theme</id>
+    <version>1.0</version>
+    <name>Carol Theme</name>
+    <vendor email="wujiaxuan1995@gmail.com">Jacin Woo</vendor>
+    <idea-version since-build="203.7148.57"/>
+    <description>This theme is inspired by the movie "Carol".</description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="5b43f760-9758-4c39-8bc8-6dee7c63083c" path="/carol.theme.json"/>
+    </extensions>
+    <actions>
+    </actions>
+</idea-plugin>
